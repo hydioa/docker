@@ -12,6 +12,17 @@ Ssh-keygen –t rsa –C “defnngj@gmai.com”
 ssh –T git@github.com
 在git 中添加项目docker
 git remote add origin https://github.com/hydioa/docker.git
+git remote -v 
 git push -u origin master
 
 
+git clone https://***/first.git
+git add note
+git commit -m "commnets"
+git push  origin master
+git pull
+
+
+ git fetch origin
+  git merge origin/master 
+  git status
