@@ -1,0 +1,9 @@
+git init
+git config --global user.name "xx"
+git config --blobal user.email "xx"
+
+git add filename
+
+git commit -m "commit" -a 
+git remote add origin git@github.com:hydioa/docker.git
+
